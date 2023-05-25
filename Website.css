@@ -8,11 +8,13 @@ header {
   background-color: #333;
   color: #fff;
   padding: 20px;
+  text-align: center;
 }
 
 nav {
   background-color: #f2f2f2;
   padding: 10px;
+  text-align: center;
 }
 
 nav ul {
@@ -31,16 +33,35 @@ nav ul li a {
   color: #333;
 }
 
-main {
+section {
   padding: 20px;
-}
-
-article {
-  margin-bottom: 20px;
 }
 
 h2 {
   color: #333;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+
+form {
+  display: grid;
+  grid-gap: 10px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 5px;
+}
+
+input[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
 }
 
 footer {
