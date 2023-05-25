@@ -1,36 +1,60 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My Blog</title>
-  <link rel="stylesheet" type="text/css" href="Website.css">
+  <title>Neil Kelly - Portfolio</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
   <header>
-    <h1>Neil</h1>
+    <h1>Neil Kelly</h1>
+    <h2>Front-end Developer</h2>
   </header>
   
   <nav>
     <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
   
-  <main>
-    <article>
-      <h2>Title 1.</h2>
-      <p>Paragraph 1.</p>
-    </article>
-    
-    <article>
-      <h2>Title 2.</h2>
-      <p>Paragraph 2.</p>
-    </article>
-  </main>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a passionate front-end developer with a focus on creating responsive and user-friendly web experiences.</p>
+  </section>
+  
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Project 1</h3>
+      <p>Description of project 1.</p>
+    </div>
+    <div class="project">
+      <h3>Project 2</h3>
+      <p>Description of project 2.</p>
+    </div>
+  </section>
+  
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+      
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+      
+      <input type="submit" value="Send">
+    </form>
+  </section>
   
   <footer>
-    <p>&copy; 2023 My Blog. All rights reserved.</p>
+    <p>&copy; 2023 Neil Kelly. All rights reserved.</p>
   </footer>
+  
+  <script src="Website.js"></script>
 </body>
 </html>
