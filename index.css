@@ -1,0 +1,139 @@
+*{font-family: Arial, Helvetica, sans-serif;}
+
+.header{background-color: #0b0f1f;width: 100%;height: 75px;position: fixed;}
+
+.name{text-align: left;color: #807BBC;margin-left: 250px;}
+
+
+
+
+nav {
+    background-color: #0b0f1f;
+    padding: 10px;
+    text-align: center;
+    height: 100%;
+  }
+  .navbar {
+    overflow: hidden;
+  }
+  
+  .dropdown {
+    float: right;
+    margin-right: 180px;
+  }
+  
+  .dropbtn {
+    
+    font-size: 50px;
+    border: none;
+    outline: none;
+    background-color: inherit;
+    cursor:pointer;
+    color: #807BBC;
+    top: auto;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0b0f1f;
+    min-width: 160px;
+    box-shadow: #271533;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #807BBC;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #271533;
+  }
+  
+  .show {
+    display: block;
+  }
+  
+
+body{
+    margin-top: 0%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #0b0f1f;
+}
+
+.home_title , .home_topic{
+  text-align: center;
+  color: #807BBC;
+  
+}
+
+
+img{
+  width: 200px;
+  height: 200px;
+  border-radius: 15%;
+  position:static;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+
+#body_text{
+  color: #afafad;
+}
+
+.para1{
+  margin-left: 300px;
+  margin-top: -180px;
+}
+
+.about_p{
+  background-color: #161618;
+  width: 50%;
+  height: 300px;
+  padding: 15px;
+  border-radius: 5%;
+  margin-top: 300px;
+  display: inline-block;
+  margin-left: 25%;
+  
+}
+
+footer{
+    background-color: #807BBC;
+    margin-top: auto;
+    height: 200px;
+    padding: 50px;
+    width: 100%;
+    
+    
+}
+
+.foot{
+    color: #0b0f1f;
+    text-align: center;
+}
+
+.social_icons{
+  text-align: center;
+}
+
+
+
+.social_icons a {
+  display: inline-block;
+  margin: 0 10px;
+  color: #0b0f1f;
+  font-size: 40px;
+  transition: color 0.3s ease;
+  
+  
+}
+
+
+
