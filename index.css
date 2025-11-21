@@ -199,7 +199,50 @@
 
   <section class="section" id="contact">
     <h3>Contact</h3>
-    <p style="text-align:center;">Connect with me on social platforms below:</p>
+    .contact-buttons {
+  text-align: center;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.primary-btn {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+.primary-btn:hover {
+  background: var(--accent-dark);
+  transform: translateY(-2px);
+}
+
+.secondary-btn {
+  background: transparent;
+  border: 2px solid var(--accent);
+  color: var(--accent);
+}
+
+.secondary-btn:hover {
+  background: var(--accent-dark);
+  border-color: var(--accent-dark);
+  color: var(--bg);
+  transform: translateY(-2px);
+}
+
   </section>
 
   <footer>
@@ -229,3 +272,4 @@
   </script>
 </body>
 </html>
+
