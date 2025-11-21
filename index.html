@@ -154,6 +154,50 @@
     }
 
     .social a:hover { opacity: 0.7; }
+  
+    .contact-buttons {
+      text-align: center;
+      margin-top: 30px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .btn {
+      padding: 12px 24px;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+    .primary-btn {
+      background: var(--accent);
+      color: var(--bg);
+    }
+
+    .primary-btn:hover {
+      background: var(--accent-dark);
+      transform: translateY(-2px);
+    }
+
+    .secondary-btn {
+      background: transparent;
+      border: 2px solid var(--accent);
+      color: var(--accent);
+    }
+
+    .secondary-btn:hover {
+      background: var(--accent-dark);
+      border-color: var(--accent-dark);
+      color: var(--bg);
+      transform: translateY(-2px);
+    }
   </style>
 </head>
 
@@ -174,8 +218,8 @@
   <section class="hero" id="home">
     <img src="profile.jpg" alt="profile" />
     <h1>Neil Kelly</h1>
-    <h2>Cloud Security and Solutions Specialist</h2>
-    <p>This site is under construction.</p>
+    <h2>Enterprise Infrastructure & Solutions Specialist</h2>
+    <p>This site is under construction — refreshed minimal-modern version underway.</p>
   </section>
 
   <section class="section" id="skills">
@@ -191,31 +235,30 @@
   <section class="section" id="projects">
     <h3>Projects</h3>
     <div class="card-grid">
-      <div class="card">App registration Secret Expiry Alert System</div>
-      <div class="card">Entra ID Conditional Access Exporter</div>
-      <div class="card">Logic App Email risky user alerts</div>
+      <div class="card">Project placeholder</div>
+      <div class="card">Project placeholder</div>
+      <div class="card">Project placeholder</div>
     </div>
   </section>
 
   <section class="section" id="contact">
     <h3>Contact</h3>
-  <div class="contact-buttons">
-  <a href="mailto:youremail@example.com" class="btn primary-btn">
-    <i class="fas fa-envelope"></i> Email Me
-  </a>
+    <p style="text-align:center;">Connect with me:</p>
 
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE" 
-     target="_blank" 
-     class="btn secondary-btn">
-    <i class="fab fa-linkedin"></i> LinkedIn
-  </a>
-</div>
+    <div class="contact-buttons">
+      <a href="mailto:youremail@example.com" class="btn primary-btn">
+        <i class="fas fa-envelope"></i> Email Me
+      </a>
 
+      <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-HANDLE" target="_blank" class="btn secondary-btn">
+        <i class="fab fa-linkedin"></i> LinkedIn
+      </a>
+    </div>
   </section>
 
   <footer>
     <h3>Neil Kelly</h3>
-    <p>Cloud Security and Solutions Specialist</p>
+    <p>Enterprise Infrastructure & Solutions Specialist</p>
     <p>2025 — All Rights Reserved</p>
     <div class="social">
       <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
@@ -240,6 +283,3 @@
   </script>
 </body>
 </html>
-
-
-
